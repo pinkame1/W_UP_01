@@ -45,7 +45,7 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
-   This graphs depicts how linemen do less push ups than skilled players.The linemen do about 35 pushes compared to the skilled players qho do about 75 pushups shown by the graphs. 
+   This graphs depicts how linemen do less push ups than skilled players.The linemen do about 35 pushes compared to the skilled players who do about 75 push ups shown by the graphs. 
 
 ### Numerical Descriptive Results
 
