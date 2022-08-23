@@ -45,11 +45,21 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
-   This graphs depicts how linemen do less push ups than skilled players.The linemen do about 35 pushes compared to the skilled players who do about 75 push ups shown by the graphs. 
+  
+  
+ This graph depicts how linemen do less push ups than skilled players.The linemen do about 35 pushes compared to the skilled players who do about 75 push ups shown by the graphs. 
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+# Numerical results
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+The average number of push ups that line players can do is 17 and the most they can do is about 34. The skilled players are doing as many as 3 times more push ups than the line players. Skilled players can do around 49 push ups on average and the most is about 108 push ups. 
+
+
 
 ## Inferential Results
 
